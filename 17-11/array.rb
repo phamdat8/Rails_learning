@@ -5,7 +5,7 @@ puts "Nhap so luong phan tu"
 array_length = Integer(gets) rescue nil
 exit unless valid? array_length
 array = Array.new(array_length) do |i| 
-    i = rand(1..array_length)
+    i = rand(1..9)
 end
 current_array = []
 array.each_with_index do |e, index|
