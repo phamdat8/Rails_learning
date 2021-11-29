@@ -1,6 +1,6 @@
 def is_sub_array? arrays, checks
-    arrays.each do |e|
-        checks.shift if e == checks[0]
+    arrays.each do |element|
+        checks.shift if element == checks[0]
     end
     checks.empty?
 end
