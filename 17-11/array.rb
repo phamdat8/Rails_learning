@@ -19,3 +19,10 @@ array.each_with_index do |e, index|
         current_array = []     
     end
 end
+
+# Code e viết ngắn gọn, trình bày dễ nhìn, thuật toán ok 
+# Anh có vài góp ý cho e về cách trình bày:
+# 1. Nếu user input sai thì chương trình e exit mà kg bắt nhập lại 
+# 2. Hàm valid? của e có thể viết ngắn gọn value && value > 0 && value <100 mà kg cần true if
+# 3. Biến array chứa nhiều phần tử -> nên là số nhiều
+# 4. Khi output ra, em nên xuất ra mảng được gen ra luôn nhé.
