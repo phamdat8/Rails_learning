@@ -9,3 +9,6 @@ numbers.each do |number|
         check_array << target_sum - number
     end
 end
+
+# Code e viết ngắn gọn, dễ đọc
+# Em dùng include? để đi check number có nằm trong mảng check_array kg thì về bản chất cũng như e sử dụng vòng for thứ 2 để check nhé
